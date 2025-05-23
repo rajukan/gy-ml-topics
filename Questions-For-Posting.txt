@@ -1,0 +1,166 @@
+
+ML Topics
+
+stats basics
+kernel density
+maximum likelihood
+MLE vs MAP
+no free lunch theorem
+matplotlib, seaborn basics(from safarionline)
+
+maths 
+numpy broadcasting
+singular Value decomposition svd
+multinomial distribution 
+Expected value
+Deterministic
+Taylor Series
+Eigen Vectors, covariance matrix
+kernel trick
+Lagrange
+Gaussian Mixture models
+Partitioned Gaussian
+
+machine learning
+GPU
+pipeline
+parametric-and-nonparametric-models-in-machine-learning
+Label encoding ordinal vs label encoding
+Feature Selection Techniques in Machine Learning
+dimensionality reduction 
+curse of dimensionality
+optimization
+loss or Error or Cost function
+gradient descent 
+stochastic GD 
+sub-gradients
+Exploding and Vanishing Gradient
+cross entropy
+K-Fold
+hinge loss
+bias and variance trade off
+feature importance
+Feature Scaling
+Techniques to handle imbalance data
+confusion matrix
+roc-auc, accuracy paradox
+hyperparameters
+bootstrap and bagging, ensemble
+A/B Testing
+SoftMax function
+
+machine learning algorithms
+Linear Regression
+K-means
+ridge and lasso and elasticnet regression
+principle component analysis pca
+svm
+svm dual problem
+RandomForest
+xgboost
+catboost 
+lgbm classifier
+
+probabilistic machine learning
+machine learning in finance
+Hedging in machine learning finance
+conjugate prior
+Monte-Carlo
+Markov Chains
+probabilistic Graph model
+timeseries
+State-space modeling
+
+Reinforcement learning
+
+ML system Design
+Recommendation systems
+Ranking Application
+Fraud Detection Model
+
+
+deep learning 
+convergence algorithm for perceptron
+very good summary of gradient for deep learning https://www.youtube.com/watch?v=gupSH0MU7vs&list=PLZ2ps__7DhBZVxMrSkTIcG6zZBDKUXCnM
+contours
+
+deep learning Algorithms
+
+
+
+
+
+ML Tips and interview tips
+Take regular breaks between major subjects and always revise, write and quiz yourself. This will help avoid brain fog and help in retrieval.
+Remember to take notes and have quiz like questions for every major topic. Remember the splunk power user certification, where you took the quiz for each topic  about an hour before the exam and you could answer almost 40% of the questions. Although I prepared only a week for this certificate.
+
+Note down all the models and try to revise or go over good videos (like NPTEL) on each model. Also try to understand the usecase for each model. During interviews, they ask which model and why you choose that model.
+
+Shuffling may be a bad idea in some contexts—for example, if you are working on time series data (such as
+stock market prices or weather conditions).
+
+Remember when you create the features matrix, ensure you have the right set of features, I remember in Kaggle, people simply take all the columns as features (except for the target column) which does not make sense. Example: if there is a customer data with different columns like customer_id,credit_score, salary, and you need to predict if a credit needs to be approved or not based on his customer_Data, the customer_id column does not make sense to be in the features matrix as it is just a random number and does not predict anything. 
+
+from hands on ml with scikit-learn Since the ROC curve is so similar to the precision/recall (PR) curve, you may wonder how to decide which one to use. As a rule
+of thumb, you should prefer the PR curve whenever the positive class is rare or when you care more about the false positives than
+the false negatives. Otherwise, use the ROC curve. For example, looking at the previous ROC curve (and the ROC AUC score), you
+may think that the classifier is really good. But this is mostly because there are few positives  compared to the negatives
+. In contrast, the PR curve makes it clear that the classifier has room for improvement (the curve could be closer to the top left corner). 
+
+
+As ML is so vast, always refer the top 50 machine learning interview questions to understand what topics to prepare.
+Able to code a model from scratch.
+Ensure you have steps for data cleaning for categorical variables with different encoding.
+make sure you have  a df.copy() after cleanup, so that you dont have to keep running it incase of further errors with model or plotting etc.
+Use ML terminologies. Ex: weights for the co-efficients of ridge regression
+
+Expectation of a deterministic value is always the same value itself. (Bias-Variance trade off)
+
+if you take a correlation of the data with features named as v1,v2 etc as most of the finance data does not display the feature names and observe most of the features are not correlated with each other. This corroborates the fact that a PCA was previously performed on the data.
+
+
+
+
+
+
+
+
+
+DSC-550
+
+What is NLP?
+What is meant by sentiment analysis?
+What are some prebuilt Python libraries to perform sentiment analysis?
+Why is it sometimes necessary to preprocess text?
+What is tf-idf vectorization?
+What are some methods for dealing with categorical features when building a model?
+What is a regression model?
+What are some common types of regression models?
+What is the difference between a regression model and a classification model?
+Do you consider logistic regression as a regression model?
+What are some common metrics for evaluating regression models?
+How do we handle a categorical feature when we are building a regression model?
+What are lasso and ridge regression?
+What is meant by a classification model?
+What are some common types of classification models?
+What is the difference between a regression model and a classification model?
+What are some common metrics for evaluating classification models?
+Is accuracy always the best metric for evaluating classification models?
+What are precision, recall, and the F1-score of a classification model?
+Why is it important to take the context of the problem into consideration when deciding the most important metric(s) to evaluate you model?
+What is the difference between supervised and unsupervised learning?
+How do you evaluate unsupervised learning models?
+What is clustering?
+What are the different types of clustering?
+Compare KNN and the K-means algorithms?
+
+
+
+
+
+
+
+
+
+
+
